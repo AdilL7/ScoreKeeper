@@ -1,0 +1,22 @@
+body {
+    font-family: monospace, sans-serif;
+    background: #42445d;
+    color: white;
+    font-size: 2em;
+}
+
+.score {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+button {
+    font-family: monospace, sans-serif;
+}
+
+#p1b, #p2b, #inp {
+    display: inline-block;
+}
